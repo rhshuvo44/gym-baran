@@ -2,19 +2,19 @@ const Navbar = ({ children }) => {
   const menu = (
     <>
       <li>
-        <a className="capitalize">home</a>
+        <a className="capitalize rounded">home</a>
       </li>
       <li>
-        <a className="capitalize">program</a>
+        <a className="capitalize rounded">program</a>
       </li>
       <li>
-        <a className="capitalize">blog</a>
+        <a className="capitalize rounded">blog</a>
       </li>
       <li>
-        <a className="capitalize">about us</a>
+        <a className="capitalize mr-20 rounded">about us</a>
       </li>
       <li>
-        <a className="capitalize btn bg-secondary text-white">Log in</a>
+        <a className="capitalize btn bg-secondary text-white rounded p-5">Log in</a>
       </li>
     </>
   );
@@ -23,7 +23,7 @@ const Navbar = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
-        <div className="w-full navbar bg-base-300 px-20">
+        <div className="w-full navbar px-20">
           <div className="flex-none lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
               <svg
@@ -48,7 +48,7 @@ const Navbar = ({ children }) => {
             >
               Gym
             </span>{" "}
-             <span className="text-primary px-2">baran</span>
+            <span className="text-primary px-2">baran</span>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal">
