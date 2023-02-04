@@ -24,13 +24,13 @@ const StaticBar = () => {
   return (
     <div className="p-10 lg:p-20">
       <div
-        className=" px-[85]"
+        className="px-[85]"
         style={{
           background: "linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%)",
           borderRadius: "30px",
         }}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-5 py-8">
           {sataticDatas.map((card, index) => (
             <StaticCard key={index} card={card} />
           ))}

@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const StaticCard = ({ card }) => {
   return (
-    <div className="card card-side px-8">
+    <div className="card card-side px-5 lg:px-8">
       <figure>
         <span
           className=" bg-[#a3a0d691] rounded-3xl"
@@ -25,7 +25,7 @@ const StaticCard = ({ card }) => {
       </figure>
       <div className="card-body">
         <h5
-          className=" text-white text-[20px]"
+          className=" text-white text-[16px] lg:text-[20px]"
           style={{
             fontFamily: "Poppins",
             lineHeight: "28px",
