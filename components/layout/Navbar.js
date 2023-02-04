@@ -1,20 +1,35 @@
+import Link from "next/link";
+
 const Navbar = ({ children }) => {
   const menu = (
     <>
       <li>
-        <a className="capitalize rounded">home</a>
+        <Link href="/" className="capitalize rounded">
+          home
+        </Link>
       </li>
       <li>
-        <a className="capitalize rounded">program</a>
+        <Link href="/program" className="capitalize rounded">
+          program
+        </Link>
       </li>
       <li>
-        <a className="capitalize rounded">blog</a>
+        <Link href="/blog" className="capitalize rounded">
+          blog
+        </Link>
       </li>
       <li>
-        <a className="capitalize mr-20 rounded">about us</a>
+        <Link href="/about" className="capitalize mr-20 rounded">
+          about us
+        </Link>
       </li>
       <li>
-        <a className="capitalize btn bg-secondary text-white rounded p-5">Log in</a>
+        <Link
+          href="/login"
+          className="capitalize btn bg-secondary text-white rounded px-5"
+        >
+          Log in
+        </Link>
       </li>
     </>
   );
@@ -23,7 +38,7 @@ const Navbar = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
-        <div className="w-full navbar px-20">
+        <div className="w-full navbar px-20 top-0 fixed">
           <div className="flex-none lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
               <svg
@@ -42,13 +57,15 @@ const Navbar = ({ children }) => {
             </label>
           </div>
           <div className="flex-1 px-2 mx-2">
-            <span
-              className="bg-primary text-white rounded
+            <Link href="/">
+              <span
+                className="bg-primary text-white rounded font-SportingGrotesque
           "
-            >
-              Gym
-            </span>{" "}
-            <span className="text-primary px-2">baran</span>
+              >
+                Gym
+              </span>{" "}
+              <span className="text-primary px-2">baran</span>
+            </Link>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal">
