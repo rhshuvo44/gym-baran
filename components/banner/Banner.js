@@ -29,7 +29,7 @@ const Banner = () => {
             style={{
               boxShadow: "0px 20px 80px rgba(51, 78, 123, 0.3)",
             }}
-            className="btn btn-outline btn-secondary capitalize justify-between gap-5"
+            className="btn bg-base-100 border-0 text-secondary hover:text-white ease-in duration-500 capitalize justify-between gap-5 shadow-lg"
           >
             <span className=" w-[26] h-[26] rounded-full">
               <AiFillPlayCircle />
@@ -37,7 +37,7 @@ const Banner = () => {
             Learn more
           </button>
           <div className="mt-10">
-          <p>Brand :</p>
+            <p>Brand :</p>
           </div>
         </div>
         <div className="flex justify-end">
