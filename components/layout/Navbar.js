@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const Navbar = ({ children }) => {
+  
   const menu = (
     <>
       <li>
@@ -38,7 +39,7 @@ const Navbar = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
-        <div className="w-full navbar px-20 top-0 fixed">
+        <div className="w-full navbar px-20 top-0 fixed bg-base-100 z-50">
           <div className="flex-none lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
               <svg
