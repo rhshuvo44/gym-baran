@@ -8,12 +8,42 @@ const Workout = () => {
   return (
     <div className=" p-10 lg:p-20 relative">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div className="relative">
-          <div className="">
+        <div>
+          <div className="mt-10 relative">
             {/* member  */}
-
+            <div className=" absolute bottom-10  left-[-30px] lg:left-[-60px] z-20">
+              <div className="card card-side bg-base-100 shadow-xl px-5">
+                <figure>
+                  <span
+                    className="w-[35px] h-[35px] lg:w-[60px] lg:h-[60px]"
+                    style={{
+                      background:
+                        "linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%)",
+                      boxShadow: "0px 4px 14px rgba(0, 0, 0, 0.09)",
+                      borderRadius: "100px",
+                    }}
+                  >
+                    <Image
+                      src={dancerMotion}
+                      width={43}
+                      height={48}
+                      alt=""
+                      className="w-full h-full p-2"
+                    />
+                  </span>
+                </figure>
+                <div className="card-body p-4">
+                  <h5 className="text-[10px] lg:text-[16px] font-bold">
+                    800 kall
+                  </h5>
+                  <p className="text-[#262524] text-[7px] lg:text-[12px] opacity-50">
+                    Burn fat
+                  </p>
+                </div>
+              </div>
+            </div>
             {/* pose  */}
-            <div className=" absolute top-24 right-0 z-20">
+            <div className="absolute top-24 lg:top-52 right-[-50px] lg:right-14 z-20">
               <div className="card card-side px-5">
                 <span
                   style={{
@@ -36,16 +66,7 @@ const Workout = () => {
               </div>
             </div>
             <Image
-              className="absolute left-14 z-10"
-              src="/image78.png"
-              alt=".."
-              priority
-              title="..."
-              width={416}
-              height={496}
-            />
-            <Image
-              className="absolute bottom-0 z-0 left-[40px]"
+              className="absolute mx-auto bottom-0 z-0 w-[239px] lg:w-[414px]"
               src="/Vector 35.png"
               alt=".."
               priority
@@ -53,9 +74,19 @@ const Workout = () => {
               width={414}
               height={307}
             />
-
+            <div className="relative px-5 z-10">
+              <Image
+                src="/image78.png"
+                className="w-[240px] lg:w-[416px]"
+                alt=".."
+                priority
+                title="..."
+                width={416}
+                height={496}
+              />
+            </div>
             {/* practicing */}
-            <div className="absolute top-10 left-20 z-20">
+            <div className="absolute top-8 left-2 lg:left-10 z-20">
               <div className="card card-side px-5">
                 <span
                   style={{
@@ -75,37 +106,6 @@ const Workout = () => {
                     className="w-full h-full p-2"
                   />
                 </span>
-              </div>
-            </div>
-
-            <div className=" absolute bottom-8 left-[-26px] z-20">
-              <div className="card card-side bg-base-100 shadow-xl px-3">
-                <figure>
-                  <span
-                    style={{
-                      background:
-                        "linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%)",
-                      boxShadow: "0px 4px 14px rgba(0, 0, 0, 0.09)",
-                      borderRadius: "100px",
-                      width: "60px",
-                      height: "60px",
-                    }}
-                  >
-                    <Image
-                      src={dancerMotion}
-                      width={43}
-                      height={48}
-                      alt=""
-                      className="w-full h-full p-2"
-                    />
-                  </span>
-                </figure>
-                <div className="card-body p-3">
-                  <h5 className="text-[16px] font-bold">800 kall</h5>
-                  <p className="text-[#262524] text-[12px] opacity-50">
-                    Burn fat
-                  </p>
-                </div>
               </div>
             </div>
           </div>
