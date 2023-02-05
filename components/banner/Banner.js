@@ -10,7 +10,7 @@ import { FcBusinessman } from "react-icons/fc";
 const Banner = () => {
   return (
     <div className=" p-10 lg:p-20 mt-0 lg:mt-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="mt-24">
           <h1 className="text-[28px] lg:text-[56px] font-bold text-accent tracking-widest">
             Healthy in side <span className="text-primary">fresh</span> out side{" "}
@@ -156,7 +156,7 @@ const Banner = () => {
               height={323}
             />
             <Image
-              className="absolute bottom-0 right-5 z-0 h-[254px] lg:h-[434px] w-[254px] lg:w-[434px]"
+              className="absolute bottom-0 lg:right-5 z-0 h-[254px] lg:h-[434px] w-[254px] lg:w-[434px]"
               src="/Ellipse 136.png"
               alt=".."
               title="..."

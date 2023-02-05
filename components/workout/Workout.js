@@ -7,9 +7,9 @@ import practicing from "../../public/person-practicing-kickboxing-svgrepo-com.sv
 const Workout = () => {
   return (
     <div className=" p-10 lg:p-20 relative">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
-          <div className="mt-10 relative">
+          <div className="mt-10 md:mt-36 lg:mt-10 relative">
             {/* member  */}
             <div className=" absolute bottom-10  left-[-30px] lg:left-[-60px] z-20">
               <div className="card card-side bg-base-100 shadow-xl px-5">
@@ -75,7 +75,7 @@ const Workout = () => {
               height={307}
             />
             <Image
-              className="absolute bottom-10 lg:bottom-14 right-0 lg:right-28 z-0 h-[220px] lg:h-[381px] w-[220px] lg:w-[381px]"
+              className="absolute bottom-10 lg:bottom-14 right-0 md:right-12 lg:right-28 z-0 h-[220px] lg:h-[381px] w-[220px] lg:w-[381px]"
               src="/Ellipse 137.png"
               alt=".."
               title="..."
@@ -84,7 +84,7 @@ const Workout = () => {
             />
             {/* shape  */}
             <div
-              className="absolute right-0 lg:right-28 bottom-5 text-[#F27F7F] w-[201px] h-[250px] lg:h-[420px]"
+              className="absolute right-0 md:right-12  lg:right-28 bottom-5 text-[#F27F7F] w-[201px] h-[250px] lg:h-[420px]"
               style={{
                 background: "url(/Vector34.png)",
               }}
@@ -125,7 +125,7 @@ const Workout = () => {
             </div>
           </div>
         </div>
-        <div className="mt-24 pl-0 lg:pl-10">
+        <div className="mt-24 pl-0 md:pl-10">
           <h2 className="text-[28px] lg:text-[46px] font-bold text-accent">
             Best full body workout to lose fat
           </h2>{" "}
