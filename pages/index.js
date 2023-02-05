@@ -2,6 +2,7 @@ import Banner from "@/components/banner/Banner";
 import Healthy from "@/components/healthy/Healthy";
 import Navbar from "@/components/layout/Navbar";
 import StaticBar from "@/components/staticBar/StaticBar";
+import Workout from "@/components/workout/Workout";
 import { Inter } from "@next/font/google";
 import Head from "next/head";
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Banner />
         <Healthy />
         <StaticBar />
+        <Workout />
       </Navbar>
     </>
   );
