@@ -176,7 +176,7 @@ const Banner = () => {
             </div>
             {/* shape  */}
             <div
-              className="absolute left-0 lg:left-[-30px] bottom-10 shape w-[209px] h-[250px] lg:h-[320px]"
+              className="absolute left-0 lg:left-[-30px] bottom-10 text-primary shape w-[209px] h-[250px] lg:h-[320px]"
               style={{
                 background: "url(/Vector33.png)",
               }}

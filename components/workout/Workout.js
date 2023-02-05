@@ -74,6 +74,21 @@ const Workout = () => {
               width={414}
               height={307}
             />
+            <Image
+              className="absolute bottom-10 lg:bottom-14 right-0 lg:right-28 z-0 h-[220px] lg:h-[381px] w-[220px] lg:w-[381px]"
+              src="/Ellipse 137.png"
+              alt=".."
+              title="..."
+              width={381}
+              height={381}
+            />
+            {/* shape  */}
+            <div
+              className="absolute right-0 lg:right-28 bottom-5 text-[#F27F7F] w-[201px] h-[250px] lg:h-[420px]"
+              style={{
+                background: "url(/Vector34.png)",
+              }}
+            ></div>
             <div className="relative px-5 z-10">
               <Image
                 src="/image78.png"
@@ -110,7 +125,7 @@ const Workout = () => {
             </div>
           </div>
         </div>
-        <div className="mt-24 pl-10">
+        <div className="mt-24 pl-0 lg:pl-10">
           <h2 className="text-[28px] lg:text-[46px] font-bold text-accent">
             Best full body workout to lose fat
           </h2>{" "}
