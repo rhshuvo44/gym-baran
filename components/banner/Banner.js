@@ -9,7 +9,6 @@ import practicing from "../../public/person-practicing-kickboxing-svgrepo-com.sv
 import { FcBusinessman } from "react-icons/fc";
 const Banner = () => {
   return (
-   
     <div className=" p-10 lg:p-20 mt-0 lg:mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div className="mt-24">
@@ -149,13 +148,20 @@ const Banner = () => {
               </div>
             </div>
             <Image
-              className="absolute mx-auto bottom-0 z-0 w-[250px] lg:w-[427px]"
+              className="absolute mx-auto bottom-0 z-10 w-[250px] lg:w-[427px]"
               src="/Vector 32.png"
               alt=".."
-              priority
               title="..."
               width={427}
               height={323}
+            />
+            <Image
+              className="absolute bottom-0 right-5 z-0 h-[254px] lg:h-[434px] w-[254px] lg:w-[434px]"
+              src="/Ellipse 136.png"
+              alt=".."
+              title="..."
+              width={434}
+              height={434}
             />
             <div className="relative px-5 z-10">
               <Image
@@ -168,7 +174,13 @@ const Banner = () => {
                 height={588}
               />
             </div>
-
+            {/* shape  */}
+            <div
+              className="absolute left-0 lg:left-[-30px] bottom-10 shape w-[209px] h-[250px] lg:h-[320px]"
+              style={{
+                background: "url(/Vector33.png)",
+              }}
+            ></div>
             {/* traing  */}
             <span className="absolute z-20 bottom-10 right-0 lg:right-[-30px]">
               <div className="card w-[109px] lg:w-[187px] bg-base-100 shadow-xl">
